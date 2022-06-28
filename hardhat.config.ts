@@ -45,6 +45,19 @@ const DEFAULT_COMPILER_SETTINGS = {
     },
   },
 }
+const DEFAULT_COMPILER_SETTINGS_8 = {
+  version: '0.8.10',
+  settings: {
+    evmVersion: 'istanbul',
+    optimizer: {
+      enabled: true,
+      runs: 1_000_000,
+    },
+    metadata: {
+      bytecodeHash: 'none',
+    },
+  },
+}
 
 export default {
   networks: {
@@ -92,6 +105,8 @@ export default {
       'contracts/test/NFTDescriptorTest.sol': LOWEST_OPTIMIZER_COMPILER_SETTINGS,
       'contracts/NonfungibleTokenPositionDescriptor.sol': LOWEST_OPTIMIZER_COMPILER_SETTINGS,
       'contracts/libraries/NFTDescriptor.sol': LOWEST_OPTIMIZER_COMPILER_SETTINGS,
+      'contracts/libraries/BytesLib.sol': DEFAULT_COMPILER_SETTINGS_8,
+      'contracts/libraries/OracleLibrary.sol': DEFAULT_COMPILER_SETTINGS_8,
     },
   },
   watcher: {
