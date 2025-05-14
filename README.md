@@ -3,6 +3,14 @@
 [![Tests](https://github.com/Uniswap/uniswap-v3-periphery/workflows/Tests/badge.svg)](https://github.com/Uniswap/uniswap-v3-periphery/actions?query=workflow%3ATests)
 [![Lint](https://github.com/Uniswap/uniswap-v3-periphery/workflows/Lint/badge.svg)](https://github.com/Uniswap/uniswap-v3-periphery/actions?query=workflow%3ALint)
 
+> ⚠️ **DEPRECATED – DO NOT USE**
+>
+> This repository is no longer maintained and is **deprecated**.
+>
+> It may contain **outdated, insecure, or vulnerable code** and should **not** be used in production or as a dependency in any project.
+>
+> The repository is retained solely for historical reference. No support, updates, or security patches will be provided.
+
 This repository contains the periphery smart contracts for the Uniswap V3 Protocol.
 For the lower level core contracts, see the [uniswap-v3-core](https://github.com/Uniswap/uniswap-v3-core)
 repository.
